@@ -1,0 +1,62 @@
+/* Базові стилі */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: Calibri, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* header, footer */
+
+header, footer{
+    width: 100%;
+    height: 120px;
+}
+
+header{
+    background-color: #74D7F3;
+}
+
+footer{
+    background-color: #F8E2B0;
+}
+
+
+/* main */
+
+main{
+    width: 100%;
+    min-height: calc(100vh - 240px);
+}
+
+
+/* blocks */
+
+main div{
+    float: left;
+    min-height: calc(100vh - 240px); 
+}
+
+.left-block, .right-block{
+    width: 30%;
+}
+
+.center-block{
+    width: 40%;
+    background-color: #F7F894;
+}
+
+.left-block{
+    background-color: #94F8B3;
+}
+
+.right-block{
+    background-color: #F094F8;
+}
